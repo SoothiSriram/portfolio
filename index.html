@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sriram Soothi Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://kit.fontawesome.com/68732e4e38.js" crossorigin="anonymous"></script>
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> -->
+<!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+<link rel="manifest" href="/site.webmanifest">
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/svlogo.jpg" alt="logo" style="visibility: hidden;" class="logo">
+                <ul id="sidemenu">
+                    <li style="visibility: hidden;"><a href="#header">Homecd</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certifications</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+              
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            
+                <h1 class="mtn">Hi, I'm <br><span>Sriram Soothi </span><br> From <br> Pragati Engineering College</h1>
+            </div>
+        </div>
+    </div>
+<!-- ------------About Me Section---- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/passp.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Sriram Soothi, an aspiring Software Engineer seeking a challenging position in an organization that allows me to contribute to 
+                        the growth and success of the organization while enhancing my skills to achieve professional excellence. I am Passionate about technology and its potential to shape the world, I'm always eager to take on new challenges, connect with diverse minds, and make a positive impact through innovative solutions. I am an enthusiastic, self-motivated, reliable, responsible and hard working person with a large appetite lo learn new things. I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Internships</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C,  Java, Python, Javascript</li>
+                            <li><span>Databases</span><br> SQL(MySQL), MongoDB, FireBase</li>
+                            <li><span>Front End Development</span><br>HTML,  CSS, Bootstrap, Javascript,React.js</li>
+                        
+                            <li><span>Cloud Technologies</span><br> AWS, Azure</li>
+                            <li><span>Version Control</span><br> Git, GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education" >
+                        <ul>
+                            <li>B.Tech in Computer Science and Engineering<br><span>Pragati Engineering College, Surampalem</span><br> CGPA - 7.52 <span><br>2020-24</span></li>
+                            <li>Intermediate(BIEAP) - MPC <br><span>Sri Chaitanya Junior  College, Kakinada</span><br> CGPA- 8.67<br> <span>2017-2019</span></li>
+                            <li>Secondary Education(SSC) <br><span>Narayana School - Kakinada</span> <br>GPA - 10 <span> <br> 2016-17</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>AICTE AWS Data Analytics Virtual Internship <br><span>May 2023- July 2023</span></li>
+                            <li>Future Ready Talent Virtual Internship <br><span>January 2023- June 2023</span></li>
+                            <li>AICTE AWS AI-ML  Virtual Internship <br><span>December 2022- January 2023</span></li>
+                            <li></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- -------------------Services------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list">
+            
+            <div>
+                <iconify-icon icon="mdi:aws"></iconify-icon>
+                <h2>AWS Cloud Practitioner</h2>
+                <p>AWS Certified Cloud Practitioner ( September 2023- September 2026) <br> Issued by Amazon Web Services Training and Certification </p>
+                <a href="https://www.credly.com/badges/dd4dea88-83e9-4d5a-a559-a23d1b16555c/public_url" target="_blank">Learn More</a>
+            </div>
+            <div>
+                <iconify-icon icon="mdi:microsoft-azure"></iconify-icon>
+                <h2>Microsoft Azure Administrator Associate</h2>
+                <p> Microsoft Certified Azure Administrator Associate( March 2023 - March 2025) <br> Issued by Microsoft</p>
+                <a href="https://www.credly.com/badges/54352f35-1433-4d00-9eb1-196aaa80de4f/public_url" target="_blank">Learn More</a>
+            </div>
+             <div>   
+                <iconify-icon icon="mdi:microsoft-azure"></iconify-icon>
+                <h2>Microsoft Power Platform Fundamentals</h2>
+                <p> Microsoft Certified Power Platform Fundamentals <br> Issued by Microsoft</p>
+                <a href="https://www.credly.com/badges/72e15cf6-9972-4caf-98c0-fff334e5c8c4/public_url" target="_blank" >Learn More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- --------------------Portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/spam.jpg" alt="work1">
+                <div class="layer">
+                    <h3>SMS Spam Classifier</h3>
+                    <p>SMS spam detection model which uses an ensemble of classification algorithms to accurately categorize incoming messages as spam or ham. This combined approach enhances accuracy and adapts to evolving spam tactics, ensuring users are shielded from unwanted content effectively.</p>
+                    <a href="https://github.com/SoothiSriram/spam-classifier" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/thal.png" alt="work2">
+                <div class="layer">
+                    <h3>Thalassemia Information Portal</h3>
+                    <p>The Thalassemia Information Portal is a comprehensive online platform dedicated to providing accurate and up-to-date information about Thalassemia, a genetic blood disorder with the help of an Azure static web app and Azure Language Service Bot</p>
+                    <a href="https://github.com/SoothiSriram/thalassemia" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/pmc.jpg" alt="work3">
+                <div class="layer">
+                    <h3>Park My Car</h3>
+                    <p>An application where convenience meets smart parking solutions. This platform offers users a seamless experience to find, reserve, and navigate to available parking spaces in busy urban areas. Say goodbye to parking hassles as you effortlessly secure your spot and enjoy more time exploring and less time searching.</p>
+                    <a href="https://github.com/SoothiSriram/ParkMyCar" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- <a href="#" class="btn">See More</a> -->
+    </div>
+</div>
+
+<!----------------------Contact------------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope"></i> sriramsoothi@gmail.com</p>
+             
+                <p><i class="fa-solid fa-phone"></i> +918247520767</p>
+                
+                <div class="social">
+                    <a href="https://github.com/soothisriram" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sriramsoothi" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- <a href="https://www.facebook.com/vatsavaya.sampath" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/vatsavayasampath/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/thorfinn75" target="_blank"> <i class="fa-brands fa-twitter" ></i></a> -->
+                    
+                </div>
+                <a href="assets/SoothiSriramResume (2).pdf" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message"  rows="8" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Sriram Soothi 2024 </p>
+    </div>
+</div>
+
+<script src="src/index.js"></script>
+</body>
+</html>
